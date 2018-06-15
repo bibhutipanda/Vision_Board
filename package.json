@@ -9,7 +9,7 @@
     "build": "electron-packager . Vision_Board"
   },
   "author": "Bibhuti Panda",
-  "license": "ISC",
+  "license": "EPL 2.0",
   "dependencies": {
     "electron": "^2.0.2"
   },
