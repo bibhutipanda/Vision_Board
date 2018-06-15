@@ -1,0 +1,39 @@
+button
+{
+float:right;
+margin:10px;
+}
+label
+{
+    padding:10px;
+}
+body
+{
+    text-align: center;
+}
+.one
+{
+    font-size:120px;
+}
+.two
+{
+    font-size:80px;
+}.three
+{
+    font-size:70px;
+}.four
+{
+    font-size:60px;
+}.five
+{
+    font-size:50px;
+}.six
+{
+    font-size:40px;
+}.seven
+{
+    font-size:30px;
+}.eight
+{
+    font-size:20px;
+}

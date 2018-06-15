@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vision.css">
+    <title>Vision</title>
+</head>
+<body>
+    <label class="one" id="1"></label><br>
+    
+    <label class="two" id="2"></label>
+    <label class="two" id="3"></label><br>
+
+    <label class="three" id="4"></label>
+    <label class="three" id="5"></label>
+    <label class="three" id="6"></label><br>
+    
+    <label class="four" id="7"></label> 
+    <label class="four" id="8"></label>
+    <label class="four" id="9"></label>
+    <label class="four" id="10"></label><br>
+    
+    <label class="five" id="11"></label>
+    <label class="five" id="12"></label>
+    <label class="five" id="13"></label>
+    <label class="five" id="14"></label>
+    <label class="five" id="15"></label><br>
+    
+    <label class="six" id="16"></label>
+    <label class="six" id="17"></label>
+    <label class="six" id="18"></label>
+    <label class="six" id="19"></label>
+    <label class="six" id="20"></label>
+    <label class="six" id="21"></label><br>
+
+    <label class="seven" id="22"></label>
+    <label class="seven" id="23"></label>
+    <label class="seven" id="24"></label>
+    <label class="seven" id="25"></label>
+    <label class="seven" id="26"></label>
+    <label class="seven" id="27"></label>
+    <label class="seven" id="28"></label><br>
+
+    <label class="eight" id="29"></label>
+    <label class="eight" id="30"></label>
+    <label class="eight" id="31"></label>
+    <label class="eight" id="32"></label>
+    <label class="eight" id="33"></label>
+    <label class="eight" id="34"></label>
+    <label class="eight" id="35"></label>
+    <label class="eight" id="36"></label><br>
+
+    <button type="text" name="Alphanum" Value="Alphanum" onclick="location.href='vision_alphanum.html'">Alphanum</button>
+    <button type="text" name="Alpha" Value="Alpha" onclick="location.href='vision_alpha.html'">Characters</button>
+    <button type="text" name="Shuffle" Value="Shuffle" onclick="location.href='vision_num.html'">Shuffle</button>
+
+    <script>
+            let x,pre,id;
+            for(id=1;id<=36;id++)   
+                    {
+                    pre=x;
+                    while(x==pre)
+                    x=Math.floor(Math.random()*10000000)%10;
+                    document.getElementById(id).innerHTML=x;
+                    }
+    </script>
+</body>
+</html>
